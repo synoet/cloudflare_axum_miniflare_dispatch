@@ -1,0 +1,6 @@
+name = "cloudflare_axum_miniflare_dispatch"
+main = "build/worker/shim.mjs"
+compatibility_date = "2025-05-19"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release"
