@@ -18,5 +18,5 @@ npm vitest
 ```sh 
 npm i
 npx wrangler dev
-curl http://localhost:8787/hello
+curl http://localhost:8787/
 ```
